@@ -1,0 +1,4 @@
+<mat-card>
+  <app-score-add (scoreAdded)="handleScoreAdded($event)" #add></app-score-add>
+  <app-score-display [score]="score" *ngFor="let score of scores"></app-score-display>
+</mat-card>

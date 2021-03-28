@@ -1,0 +1,11 @@
+<mat-card>
+  <mat-form-field>
+    <mat-label>Name</mat-label>
+    <input matInput type="text" placeholder="Name" [(ngModel)]="name">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Score</mat-label>
+    <input matInput type="number" placeholder="Score" [(ngModel)]="score">
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="handleSave()" [disabled]="disableSave">Save</button>
+</mat-card>

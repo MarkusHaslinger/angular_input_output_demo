@@ -1,0 +1,29 @@
+{
+  "scores": [
+    {
+      "id": 1,
+      "name": "Hansi",
+      "points": 12
+    },
+    {
+      "id": 2,
+      "name": "Susi",
+      "points": 20
+    },
+    {
+      "name": "Gabi",
+      "points": 80,
+      "id": 3
+    },
+    {
+      "name": "sadfgag",
+      "points": 12,
+      "id": 4
+    },
+    {
+      "name": "TEST",
+      "points": 999,
+      "id": 5
+    }
+  ]
+}
